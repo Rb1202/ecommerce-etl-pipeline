@@ -1,0 +1,22 @@
+2026-03-30 11:01:20,195 - INFO -  Starting ETL Pipeline
+2026-03-30 11:01:20,196 - INFO -  Starting data extraction from Kaggle
+2026-03-30 11:01:20,826 - INFO -  Dataset downloaded successfully
+2026-03-30 11:01:21,166 - INFO -  Loaded orders data
+2026-03-30 11:01:21,336 - INFO -  Loaded customers data
+2026-03-30 11:01:21,375 - INFO -  Loaded products data
+2026-03-30 11:01:21,376 - INFO -  Extraction completed successfully
+2026-03-30 11:01:21,376 - INFO -  Extraction completed
+2026-03-30 11:01:21,376 - INFO -  Starting data transformation
+2026-03-30 11:01:21,607 - INFO -  Removed duplicates
+2026-03-30 11:01:21,776 - INFO -  Handled missing values
+2026-03-30 11:01:21,807 - INFO -  Converted order_purchase_timestamp to datetime
+2026-03-30 11:01:22,560 - INFO -  Saved processed data to /data/processed
+2026-03-30 11:01:22,561 - INFO -  Transformation completed successfully
+2026-03-30 11:01:22,561 - INFO -  Transformation completed
+2026-03-30 11:01:22,561 - INFO -  Starting data loading into PostgreSQL
+2026-03-30 11:01:25,461 - INFO -  Orders table loaded
+2026-03-30 11:01:27,145 - INFO -  Customers table loaded
+2026-03-30 11:01:28,197 - INFO -  Products table loaded
+2026-03-30 11:01:28,197 - INFO -  All data loaded successfully into PostgreSQL
+2026-03-30 11:01:28,197 - INFO -  Data loaded into database
+2026-03-30 11:01:28,197 - INFO -  ETL Pipeline finished successfully
